@@ -23,13 +23,14 @@ label{
 
 .input{
     width: 250px;
+    height: 40px;
 }
 
 button{
     margin-top: 20px;
     background-color: #ffa600;
     border: none;
-    padding: 10px 20px;
+    padding: 13px 30px;
     border-radius: 3px;
 }
 
