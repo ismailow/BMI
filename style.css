@@ -1,11 +1,60 @@
+body{
+    background-color: #010101;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
 .container{
     width: 100%;
     max-width: 500px;
-    margin: auto;
+    margin: 200px auto;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 250px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #ffa600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.danger{
+    background-color: #ff3333;
+    border: 5px solid #be2828;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.caution{
+    background-color: #fd923b;
+    border: 5px solid #dd7513;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.normal{
+    background-color: #77f822;
+    border: 5px solid #59b40e;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+p.normal{
+    color: #fff;
 }
