@@ -8,7 +8,7 @@ body{
 .container{
     width: 100%;
     max-width: 500px;
-    margin: 200px auto;
+    margin: 100px auto;
 }
 
 .form{
@@ -19,6 +19,7 @@ body{
 label{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .input{
